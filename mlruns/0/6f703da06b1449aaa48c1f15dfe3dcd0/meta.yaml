@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/alihodroj/src/deeplearning-sandbox/mlruns/0/6f703da06b1449aaa48c1f15dfe3dcd0/artifacts
+end_time: 1739661536212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f703da06b1449aaa48c1f15dfe3dcd0
+run_name: fun-shoat-856
+run_uuid: 6f703da06b1449aaa48c1f15dfe3dcd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739661285588
+status: 3
+tags: []
+user_id: alihodroj
