@@ -27,11 +27,11 @@ requirements: test_environment
 
 ## Train the model
 train: 
-	$(PYTHON_INTERPRETER) src/models/train.py --epochs=$(epochs) --lr=$(lr) --batch_size=$(batch) --device=$(device)
+	$(PYTHON_INTERPRETER) src/models/train.py --epochs=$(epochs) --lr=$(lr) --batch_size=$(batch) --device=$(device) --experiment=$(experiment)
 
 ## Predict the model
 predict: 
-	$(PYTHON_INTERPRETER) src/models/predict.py --model=$(model) --device=$(device)
+	$(PYTHON_INTERPRETER) src/models/predict.py --experiment=$(experiment)
 
 
 ## Make Dataset
