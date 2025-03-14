@@ -10,5 +10,6 @@ torch
 torchmetrics
 torchvision
 torchtext
+pandas
 numpy
 mlflow
